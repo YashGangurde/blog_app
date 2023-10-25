@@ -1,0 +1,60 @@
+.register
+{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:
+    url("https://www.timeshighereducation.com/student/sites/default/files/styles/default/public/person-writing-letter-with-metal-quill.jpg?itok=xVz8Bo7c");
+    background-size: cover;
+}
+
+.registertitle
+{
+    font-size: 50px;
+    color: rgb(19, 112, 81);
+}
+
+.registerform
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerform > label
+{
+    margin: 10px 0;
+}
+
+.registerinput
+{
+    padding: 10px;
+    background-color: cornsilk;
+    border: none;
+}
+
+.registerbutton
+{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerloginbutton
+{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(41, 153, 116);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: antiquewhite;
+}

@@ -1,0 +1,9 @@
+.emptyList {
+    display: flex;
+    justify-content: center;
+}
+
+.emptyList img {
+    max-width: 600px;
+    width: 100%;
+}
